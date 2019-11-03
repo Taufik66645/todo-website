@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Todo</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/index.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Project Management</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Dashboard <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Log out
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <main>
+      <div
+        class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-flex-start pt-3 pb-2 mb-3 border-bottom"
+      >
+        <h1 class="h2">Dashboard</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group mr-2">
+          <button type="button" class="btn btn-sm btn-outline-secondary">
+            Add Project +
+          </button>
+        </div>
+      </div>
+    </main>
+    <main>
+            <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p class="card-text">Project Description</p>
+                          <a href="#" class="btn btn-primary">Edit</a>
+                          <a href="#" class="btn btn-outline-secondary bg-warning">Delete</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 2</h5>
+                          <p class="card-text">Project Description</p>
+                          <a href="#" class="btn btn-primary">Edit</a>
+                          <a href="#" class="btn btn-outline-secondary bg-warning">Delete</a>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">Project Description</p>
+                                <a href="#" class="btn btn-primary">Edit</a>
+                                <a href="#" class="btn btn-outline-secondary bg-warning">Delete</a>
+
+                              </div>
+                  </div>
+    </main>
+            
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
